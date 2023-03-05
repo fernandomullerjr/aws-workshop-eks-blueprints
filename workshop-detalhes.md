@@ -8625,12 +8625,11 @@ We finally see how Spot instances could improve your cost saving, and how Karpen
 
 
 
-
-
+git@github.com:fernandomullerjr/aws-workshop-eks-blueprints.git
 
 #### Ajustando repositorio
 git init
-git remote add origin git@github.com:fernandomullerjr/python-alura.git
+git remote add origin git@github.com:fernandomullerjr/aws-workshop-eks-blueprints.git
 git branch -M main
 git push -uf origin main
 git pull origin main
