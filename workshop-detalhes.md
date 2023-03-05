@@ -8634,3 +8634,13 @@ git branch -M main
 git push -uf origin main
 git pull origin main
 git push --set-upstream origin main
+
+
+
+git status
+git add .
+git commit -m "WORKSHOP AWS - EKS Blueprints."
+eval $(ssh-agent -s)
+ssh-add /home/fernando/.ssh/chave-debian10-github
+git push
+git status
